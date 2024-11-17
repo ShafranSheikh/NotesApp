@@ -2,7 +2,9 @@ import React from 'react'
 import '../styles/footer.css'
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+      <h2>Developed by Mohamed Shafran</h2>
+    </footer>
   )
 }
 

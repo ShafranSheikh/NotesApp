@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Spicy+Rice&display=swap');
+/* General Styling */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border:none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins',sans-serif;
+}
+
+.navbar{
+    height: 4rem;
+    background-color: #FAB12F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.navbar-logo h2{
+    color:#FBFBFB ;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: "Alfa Slab One";
+    font-weight: 400;
+}
+.navbar ul li {
+    list-style-type: none;
+}
+.navbar ul li button{
+    height: 2.5rem;
+    background: none;
+    width: 5rem;
+    margin-right: 20px;
+    color: #FBFBFB;
+    font-size: 20px;
+    font-weight: 600;
+}
+@media (max-width: 768px) {
+    
+}
